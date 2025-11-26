@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Dati medici (IMPORTANTE!)
+data/
+dataset/
+*.nii
+*.nii.gz
+*.dcm
+
+# Modelli salvati (file pesanti)
+*.pth
+*.pt
+*.h5
+*.keras
+*.ckpt
+checkpoints/
+models/
+saved_models/
+
+# Log e output
+logs/
+wandb/
+results/
+outputs/
